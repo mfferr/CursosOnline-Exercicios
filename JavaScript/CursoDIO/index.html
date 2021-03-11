@@ -6,8 +6,19 @@
     <title>Minha página</title>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
+<body onload="load()">   
+    <h1>Minha página com JS</h1>
+
+    <button type="button" onclick="botao()">Clique Aqui</button>
+    <p id="agradecimento" onclick="redirecionar()"></p>
+    <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui!</p>
+    <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui!</p>
+
+    <select onchange="funcaoChange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
     
-    <h1>Minha página</h1>
 </body>
 </html>
