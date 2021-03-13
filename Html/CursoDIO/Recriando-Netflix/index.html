@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX CLONE</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/Netflix-Logoo.png" alt="Logo da Netflix">
+            </div>
+            <nav>
+                <a href="https://www.netflix.com/br/">Inicio</a>
+                <a href="https://www.netflix.com/br/browse/genre/83">Séries</a>
+                <a href="https://www.netflix.com/br/browse/genre/2298875">Filmes</a>
+                <a href="https://www.netflix.com/br/browse/genre/27346">Infantil</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">DESIGNATED SURVIVOR</h3>
+                <p class="descricao">A série protagonizada por Kiefer Sutherland é centrada em um funcionário do
+                    Gabinete da Casa Branca que é indicado para assumir a presidência dos Estados Unidos após um ataque
+                    ter deixado mortos todos acima dele na linha sucessória. O elenco tem ainda Maggie Q
+                    (Nikita, Divergente) e Kal Penn (House), com roteiro produzido por Simon Kinberg (Perdido em
+                    Marte,X-Men: Apocalypse) e pela Mark Gordon Company.
+                </p>
+                <div class="botoes">
+                    <button role="button" onclick="redirecionarA(this)" class="botao"><i class="fas fa-play"></i>
+                        ASSITIR AGORA
+                    </button>
+                    <button role="button" onclick="redirecionarI(this)" class="botao"><i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÔES
+                    </button>
+                </div>
+                <div class="show">
+                    <iframe src="https://www.youtube.com/embed/N_f1v0Nx5Sw?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filme">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-filme" src="img/mini1.jpg" alt="imagem1"></div>
+            <div class="item"><img class="box-filme" src="img/mini2.jpg" alt="imagem2"></div>
+            <div class="item"><img class="box-filme" src="img/mini3.jpg" alt="imagem3"></div>
+            <div class="item"><img class="box-filme" src="img/mini4.jpg" alt="imagem4"></div>
+            <div class="item"><img class="box-filme" src="img/mini5.jpg" alt="imagem5"></div>
+            <div class="item"><img class="box-filme" src="img/mini6.jpg" alt="imagem6"></div>
+            <div class="item"><img class="box-filme" src="img/mini7.jpg" alt="imagem7"></div>
+            <div class="item"><img class="box-filme" src="img/mini8.jpg" alt="imagem8"></div>
+            <div class="item"><img class="box-filme" src="img/mini9.jpg" alt="imagem9"></div>
+            <div class="item"><img class="box-filme" src="img/mini10.jpg" alt="imagem10"></div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/3b6ec5573b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3b6ec5573b.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+
+</body>
+</html>
