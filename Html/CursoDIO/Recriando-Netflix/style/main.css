@@ -99,6 +99,7 @@ header nav a:hover{
 }
 /*video*/
 .show{
+    padding: 8px;
     margin-left: 50px;
     width:260px;
     height:215px;
