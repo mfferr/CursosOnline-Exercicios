@@ -1,0 +1,25 @@
+body{
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+  }
+.navbar{
+   background-color:  #529b7c;  
+}
+.quem-somos{
+    background-color:rgb(53, 50, 50)  ;     
+     color:white;
+    
+}.margin{
+     padding-top: 10px;
+     padding-bottom: 50px;
+}
+.parceiros{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(161, 76, 6);
+}
+.bg-footer{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+}
