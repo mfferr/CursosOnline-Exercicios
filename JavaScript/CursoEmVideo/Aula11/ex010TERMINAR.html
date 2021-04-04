@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+            background:rgb(20, 70, 20);
+            color:white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Verificação de Nacionalidade</h1>
+    Qual seu País?
+    <input type="text" name ="txtnac" id="txtnac">
+    <input type="button" value="Verificar" onclick="validar()">
+    <div id ="res">
+        
+    </div>
+    <script>  
+          
+        function validar()
+        {  
+            var pais= window.document.getElementById("txtnac") 
+            var res= window.document.getElementById("res") 
+            res.innerHTML = "Você reside neste país e é: "
+            if(pais != "Brasil"){
+                res.innerHTML += "<strong>Estrangeiro!</strong>"
+            }
+            else if(pais === "Brasil"){
+                res.innerHTML += "<strong>Brasileiro!</strong>"
+            }
+        }
+    </script>
+</body>
+</html>
