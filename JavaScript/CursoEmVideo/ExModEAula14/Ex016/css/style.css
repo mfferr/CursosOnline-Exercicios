@@ -1,0 +1,27 @@
+body{
+    font-family: 'Montserrat', sans-serif,'Londrina Solid', cursive;
+    background-image: url("/CursosOnline-Exercicios/JavaScript/CursoEmVideo/ExModEAula14/Ex016/img/pizzabg.png");
+    font: bold 15pt Arial;
+    text-align:center;
+    font-family: 'Shadows Into Light', 'cursive', 'Roboto', 'sans-serif';
+    font-size: 28px;
+    color:black;
+}
+section{
+    align-items: left;
+    font-family: 'Josefin Sans', 'Shadows Into Light', 'cursive', 'Roboto', 'sans-serif'; 
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.589); 
+}    
+img{
+       border-radius: 5%;
+       width: 350px; 
+    }
+footer{
+    text-align:center;
+    font-style: italic;
+    font-family: 'Shadows Into Light', 'cursive', 'Roboto', 'sans-serif';    
+    color:black;
+}

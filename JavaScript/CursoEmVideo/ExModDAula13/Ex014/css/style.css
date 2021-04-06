@@ -1,0 +1,37 @@
+body{
+font-family: 'Montserrat', sans-serif,'Londrina Solid', cursive;
+background: rgb(107,107,241);
+font: normal 15pt Arial;
+align-items: center;
+}
+header{
+color:white;
+text-align:center;
+font-family: 'Shadows Into Light', 'cursive', 'Roboto', 'sans-serif';
+font-size: 28px;
+}
+header #msg2{
+font-size: 27px;    
+}
+section{
+font-family: 'Josefin Sans', 'Shadows Into Light', 'cursive', 'Roboto', 'sans-serif';  
+background:transparent;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);  
+}
+div{
+text-align: center;
+padding: 5px;
+}
+img{
+border-radius: 50%;    
+}
+footer{
+color: white;
+text-align:center;
+font-style: italic;
+font-family: 'Shadows Into Light', 'cursive', 'Roboto', 'sans-serif';    
+}

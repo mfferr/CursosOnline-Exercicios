@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+            background: rgb(20, 70, 20);
+            color: white;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 300px;
+        }
+
+        #res {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Verificação de Nacionalidade</h1>
+      <h3>Estamos no Brasil</h3>
+    Qual é o seu País?
+    <input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="Verificar" onclick="validar()">
+    <div id="res"> </div>
+    <script>
+        function validar() {
+            var txtn = window.document.querySelector('input#txtnac')
+            var res = window.document.querySelector('div#res')
+            var pais = String(txtnac.value)
+            res.innerHTML = `Você digitou: ${pais} ,então você é:`
+            if (pais == 'Brasil') {
+                res.innerHTML += `<p><strong><p>Brasileiro!</strong></p>`
+            }
+            else {
+                res.innerHTML += `<p><strong>Estrangeiro!</strong></p>`
+            }
+        }
+    </script>
+    <footer>
+        <p>&copy;Marcos Felipe Ferreira</p>
+    </footer>
+</body>
+</html>

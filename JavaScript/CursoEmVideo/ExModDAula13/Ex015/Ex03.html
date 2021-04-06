@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Londrina+Solid:wght@300;900&family=Montserrat&family=Roboto&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+             <input type="radio" name="radsex" id="mas"checked>
+             <label for="mas">Masculino</label>
+             <input type="radio" name="radsex" id="fem">
+             <label for="fem">Feminino</label>
+            </p>
+            <p>
+            <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            <p>Preencha corretamente os campos para ver o resultado!</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Marcos Felipe Ferreira</p>
+    </footer>
+</body>
+</html>
